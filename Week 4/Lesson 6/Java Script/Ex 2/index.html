@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise_2</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label>1st Number: </label>
+        <input name="number_a" type="number" id="number_a"><br>
+        <label>2nd Number: </label>
+        <input name="number_b" type="number" id="number_b">
+    </form>
+        <button onclick="bigger()">Enter</button>
+    <p>The Bigger Number Is:</p>
+    <script>
+        function bigger(){
+            number_a=document.getElementById("number_a").value;
+            number_b=document.getElementById("number_b").value;
+            if ( number_a > number_b ){
+                document.write(number_a)
+            }  
+            else{
+                document.write(number_b)
+            }
+        }
+    </script>
+</body>
+</html>
