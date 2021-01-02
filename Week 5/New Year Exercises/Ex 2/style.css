@@ -1,0 +1,21 @@
+.container{
+    font-family: "Arial";
+    margin: auto;
+    position: relative;
+}
+.paragraph{
+    color: gray;
+}
+.normal{
+    font-size: 1.5em;
+}
+.logo{
+    padding: 10px;
+}
+td{
+    text-align: center;}
+.title{
+    color: #d8ba35;
+    font-size: 4em;
+    text-align: center;
+}
